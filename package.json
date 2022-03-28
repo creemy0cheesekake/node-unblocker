@@ -35,7 +35,7 @@
   },
   "scripts": {
     "watch": "nodemon --watch ./ --ignore ./examples --ext js,html,xhtml,json --exec npm run test",
-    "start": "node ./lib/unblocker",
+    "start": "node ./lib/proxy",
     "test": "npm run lint && npm run test-spec",
     "pre-commit": "npm run autofix && npm test",
     "lint": "eslint .",
